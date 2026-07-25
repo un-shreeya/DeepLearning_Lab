@@ -1,4 +1,4 @@
-# Multi-Layer Perceptron 
+# Implementation of a Multi-Layer Perceptron (MLP) for Multi-Class Image Classification
 The experiment focuses on image classification using Multi-Layer Perceptrons (MLP) on the Fashion-MNIST dataset, hyperparameter optimization using RandomizedSearchCV, and a demonstration of solving the XOR problem using single-layer vs. multi-layer architectures.
 
 ## Overview
