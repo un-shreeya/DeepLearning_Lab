@@ -25,22 +25,23 @@ This repository contains the complete implementation, experimental benchmarking,
 
 ## 3. Repository Structure
 
+```text
 .
 ├── data/
-│   ├── UCI HAR Dataset/          # UCI HAR raw inertial signals dataset directory
-│   └── ucf101_subset/            # Sampled video frames / action recognition dataset
+│   ├── UCI HAR Dataset/          # UCI HAR raw inertial signals dataset directory
+│   └── ucf101_subset/            # Sampled video frames / action recognition dataset
 ├── outputs/
-│   ├── plots/                    # Vector .eps generated figures (Plot 1 through Plot 9)
-│   └── logs/                     # Saved model checkpoints and training logs
+│   ├── plots/                    # Vector .eps generated figures (Plot 1 through Plot 9)
+│   └── logs/                     # Saved model checkpoints and training logs
 ├── src/
-│   ├── preprocess.py             # Data loading, normalization, and windowing (N, 128, 9)
-│   ├── bptt_calc.py              # Analytical and manual BPTT numerical verification
-│   ├── models.py                 # PyTorch / Keras implementations of RNN, LSTM, GRU, Seq2Seq
-│   ├── video_pipeline.py         # MobileNetV2 feature extraction and video classification
-│   └── evaluate.py               # Metric calculation, confusion matrices, and sequence evaluation
-├── README.md                     # Project documentation
-└── main.py                       # Master execution script for the end-to-end pipeline
-
+│   ├── preprocess.py             # Data loading, normalization, and windowing (N, 128, 9)
+│   ├── bptt_calc.py              # Analytical and manual BPTT numerical verification
+│   ├── models.py                 # PyTorch / Keras implementations of RNN, LSTM, GRU, Seq2Seq
+│   ├── video_pipeline.py         # MobileNetV2 feature extraction and video classification
+│   └── evaluate.py               # Metric calculation, confusion matrices, and sequence evaluation
+├── README.md                     # Project documentation
+└── main.py                       # Master execution script for the end-to-end pipeline
+```
 ---
 
 ## 4. Datasets & Experimental Setup
