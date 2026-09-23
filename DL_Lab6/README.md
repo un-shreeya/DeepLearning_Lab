@@ -38,25 +38,25 @@ By completing this lab, you will learn to:
    * **Task:** Sequence reversal (e.g., `[1, 4, 7, 2]` $\rightarrow$ `[2, 7, 4, 1]`).
 
 ---
-
 ## 4. Overall Pipeline Architecture
+```
 [ Sensor Signals / Video Frames ]
-│
+|
 ▼
 [ Data Preprocessing / CNN Feature Extraction ]
-│
+|
 ▼
 [ Tensor Shape: (N, T, F) ]
-│
+|
 ▼
 [ Recurrent Layer: RNN / LSTM / GRU (32 units) ]
-│
+|
 ▼
 [ Dropout (0.2) + Dense (16 ReLU) ]
-│
+|
 ▼
-[ Dense (Softmax Output) ] ──► [ Activity / Action Prediction ]
-
+[ Dense (Softmax Output) ] -> [ Activity / Action Prediction ]
+```
 ---
 
 ## 5. Experimental Tasks & Workflow
