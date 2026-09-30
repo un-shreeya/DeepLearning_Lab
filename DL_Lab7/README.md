@@ -2,13 +2,13 @@
 ## Experiment 7: End-to-End Study of Autoencoders, Convolutional Autoencoders, Denoising Autoencoders, and Variational Autoencoders
 
 ### 1. Overview
-This repository contains the complete implementation and empirical analysis for Experiment 7 of the CS3807 Deep Learning Laboratory course. The primary objective is to build, train, evaluate, and compare four key autoencoder architectures using the MNIST Handwritten Digit dataset:
+The primary objective is to build, train, evaluate, and compare four key autoencoder architectures using the MNIST Handwritten Digit dataset:
 1. Fully Connected Autoencoder (FC-AE)
 2. Convolutional Autoencoder (CAE)
 3. Denoising Convolutional Autoencoder (DAE)
 4. Variational Autoencoder (VAE)
 
-The project covers dataset preprocessing, architectural construction, custom loss formulation, metric-based evaluation, latent space analysis, denoising performance under controlled noise, and generative sampling via reparameterization.
+The experiment covers dataset preprocessing, architectural construction, custom loss formulation, metric-based evaluation, latent space analysis, denoising performance under controlled noise, and generative sampling via reparameterisation.
 
 ---
 
